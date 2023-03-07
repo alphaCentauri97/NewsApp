@@ -28,8 +28,8 @@ public class HomeFragment extends Fragment {
     String api = "ef6ff7ca71494d9eb9bc092d61167a10";
     ArrayList<ModelClass> list;
     RecyclerViewAdapter adapter;
-    String country= "in";
     RecyclerView recyclerView;
+    String country= "in";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
